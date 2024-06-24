@@ -5,6 +5,8 @@ local err = get("err")
 local rand = get("random")
 
 btn.on_click(function()
+    err.set_content()
+    rand.set_content()
     print("Click!")
     local mnvalue = tonumber(mn.get_content(), 10)
     local mxvalue = tonumber(mx.get_content(), 10)
@@ -14,7 +16,6 @@ btn.on_click(function()
     elseif mnvalue >= mxvalue then
         err.set_content("Min value should be smaller than max value")
     else
-        err.set_content()
         local randnum = math.random(mnvalue, mxvalue)
         rand.set_content(randnum)
     end
