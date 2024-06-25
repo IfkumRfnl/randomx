@@ -1,1 +1,2 @@
-RandomX
+# RandomX 
+buss://random.soy
