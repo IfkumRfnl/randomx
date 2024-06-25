@@ -1,0 +1,44 @@
+body {
+    padding: 6px;
+    align-items: center;
+}
+
+err {
+    color: red;
+}
+
+min {
+    font-size: 16px;
+    padding: 6px;
+    height: 20px;
+}
+
+max {
+    font-size: 16px;
+    padding: 6px;
+    height: 20px;
+}
+
+random {
+    font-size: 16px;
+}
+
+main {
+    direction: row;
+    align-items: center;
+    gap: 120;
+}
+
+range {
+    direction: column;
+    align-items: center;
+}
+
+coin {
+    direction: column;
+    align-items: center;
+}
+
+cointype {
+    font-size: 16px;
+}

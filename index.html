@@ -5,15 +5,26 @@
         <meta name="theme-color" content="#000000">
         <meta name="description" content="Generate random numbers">
 
-        <link href="style.css">
+        <link href="styles.css">
         <script src="script.lua"/>
     </head>
     <body>
         <h1>RandomX</h1>
-        <input type="text" class="min" placeholder="Min">
-        <input type="text" class="max" placeholder="Max">
-        <p class="err"></p>
-        <button class="btn">Generate</button>
-        <p class="random"></p>
+        <div class="main">
+            <div class="range">
+                <h3>Random number in a range</h3>
+                <input type="text" class="min" placeholder="Min value">
+                <input type="text" class="max" placeholder="Max value">
+                <p class="err"></p>
+                <button class="btn">Generate</button>
+                <p class="random"></p>
+            </div>
+            <div class="coin">
+                <h3>Flip a coin</h3>
+                <button class="coinbtn">Flip</button>
+                <img src="" alt="" class="coinimg">
+                <p class="cointype"></p>
+            </div>
+        </div>d
     </body>
 </html>
